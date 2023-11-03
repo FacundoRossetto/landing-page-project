@@ -12,7 +12,7 @@ body {
 
 .section-1 {
     background-color: #1F2937;
-    padding: 0 172px;
+    padding: 0 192px;
 }
 
 header {
@@ -63,6 +63,36 @@ header {
     flex: 1;
 }
 
+.section-2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 224px;
+}
+
+.info-content {
+    display: flex;
+    padding: 50px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 0 25px;
+}
+
+.card-img {
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
 
 footer {
     background-color: #1F2937;
