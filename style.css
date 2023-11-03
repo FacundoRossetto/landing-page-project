@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 20px;
     color: #F9FAF8
 }
 
@@ -31,6 +31,10 @@ header {
     display: flex;
     font-size: 18px;
     list-style: none;
+}
+
+.links li {
+    margin-left: 16px;
 }
 
 .links a {
@@ -50,17 +54,31 @@ header {
 .hero-sign h1 {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-bottom: 8px;
 }
 
 .hero-sign p {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+.hero-button {
+    font-weight: 900;
+    color:#F9FAF8;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 10px 25px;
 }
 
 .hero-image {
     background-color: gray;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-2 {
