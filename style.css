@@ -69,7 +69,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 224px;
+    padding: 32px 128px;
 }
 
 .info-content {
@@ -111,6 +111,30 @@ header {
 .person {
     font-size: 18px;
     text-align: end;
+}
+
+.section-4 {
+    background-color: #F9FAF8;
+    padding: 64px 192px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 96px;
+    border-radius: 10px;
+    color:#F9FAF8
+}
+
+.action-button {
+    font-weight: 900;
+    color:#F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 10px 25px;
 }
 
 footer {
